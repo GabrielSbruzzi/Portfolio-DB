@@ -1,11 +1,10 @@
 .container {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     display: grid;
     gap: 1.25rem;
     padding: 1.25rem;
 
 }
-
 
 header #navegacao {
     display: flex;
@@ -29,7 +28,7 @@ header #navegacao {
 main .profile {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     padding: 1.25rem;
     gap: 1.25rem;
 }
