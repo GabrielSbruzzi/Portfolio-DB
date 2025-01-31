@@ -1,3 +1,11 @@
+.container {
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    gap: 1.25rem;
+    padding: 1.25rem;
+
+}
+
 
 header #navegacao {
     display: flex;
@@ -26,13 +34,6 @@ main .profile {
     gap: 1.25rem;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.25rem;
-    padding: 1.25rem;
-}
-
 
 @media (max-width: 1024px) {
     #links-navegacao li {
@@ -48,11 +49,6 @@ main .profile {
         text-align: center;
     }
 
-    .container {
-        grid-template-columns: 1fr;
-
-    }
-
     .card-container {
         display: flex;
     }
@@ -64,6 +60,10 @@ main .profile {
 
     .skills {
         margin-top: 4rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
     }
 
 
@@ -137,6 +137,8 @@ main .profile {
     }
     .about{
         width: 100%;
+        margin-top: 0;
+        padding-top: 0;
     }
 
     .backEnd-container, .frontEnd-container {

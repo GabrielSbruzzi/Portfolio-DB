@@ -11,7 +11,7 @@ const Profile: React.FC = () => {
                         de software na DBServer.
                     </p>
                 </div>
-                <img src="/assets/perfil.jpeg" alt="Foto do Gabriel Sbruzzi"/>
+                <img src="/assets/profile2.png" alt="Foto do Gabriel Sbruzzi"/>
             </section>
     )
 }

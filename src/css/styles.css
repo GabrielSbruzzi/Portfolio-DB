@@ -144,6 +144,8 @@ section.profile {
     flex-wrap: wrap;
     gap: 3rem;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .profile-container h1 {
@@ -156,33 +158,42 @@ section.profile {
 }
 
 section.profile img {
-    max-width: 100%;
-    width: 35%;
-    margin-right: 2vw;
+    max-width: 50%;
+    width: 25%;
+    margin-right: 7vw;
+    border-radius: 50%;
+    height: 1%;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    margin-top: 5vh;
 }
 
 .about {
-    width: 80%;
+    width: 60%;
 }
 
 .about h2 {
     font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;
     font-size: 36px;
+    margin: 0; 
 }
 
 .about p {
     width: 100%;
     height: auto;
     font-family: 'Roboto Flex', sans-serif;
-    margin-top: 20px;
+    margin-top: 0;
+    padding-top: 0;
 }
 
+section.profile {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
 
 .skills h2 {
     font-family: 'TT-Supermolot-Neue-Trial-Bold', sans-serif;

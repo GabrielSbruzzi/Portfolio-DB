@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                 </li>
                 <li  style={{ width: '200px' }}>
                     <a
-                        href="https://drive.google.com/file/d/1IJsvbwOlX2_vMsHisVqooUDC7unft6ap/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1IJsvbwOlX2_vMsHisVqooUDC7unft6ap/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
